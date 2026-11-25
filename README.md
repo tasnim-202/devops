@@ -19,14 +19,14 @@ DevOps-AppGestionDesProjets/
 │   ├── src/
 │   │   └── main/java/tn/esprit/backend/
 │   │       ├── entity/
-│   │       ��── repository/
+│   │         ── repository/
 │   │       ├── service/
 │   │       └── controller/
 │   └── pom.xml
 ├── frontend/         # Application Angular 22 (Node.js, npm)
 │   ├── src/
 │   │   └── app/
-│   │       ��── models/
+│   │         ── models/
 │   │       ├── services/
 │   │       ├── components/
 │   │       └── pages/
@@ -149,7 +149,7 @@ L'application s'ouvre automatiquement sur **http://localhost:4200**
 | Méthode | URL | Description |
 |---|---|---|
 | GET | `/projet-detaille/all` | Lister tous les projets détaillés |
-| GET | `/projet-detaille/get/{id}` | Obtenir un projet d��taillé par ID |
+| GET | `/projet-detaille/get/{id}` | Obtenir un projet d  taillé par ID |
 | POST | `/projet-detaille/add` | Ajouter un projet détaillé |
 | PUT | `/projet-detaille/update` | Modifier un projet détaillé |
 | DELETE | `/projet-detaille/delete/{id}` | Supprimer un projet détaillé |
@@ -223,7 +223,3 @@ pipeline {
 | Conteneurisation | Docker *(à venir)* |
 
 ---
-
-## 👤 Auteur
-
-**ESPRIT — UP ASI**  
